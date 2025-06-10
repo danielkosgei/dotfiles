@@ -26,6 +26,9 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
+# Add in snippets
+# zinit snippet OMZP::git
+
 # Load completions
 autoload -U compinit && compinit
 
@@ -57,3 +60,4 @@ alias ls='ls --color'
 # Shell integrations
 eval "$(fzf --zsh)"
 
+export BROWSER='/mnt/c/Program Files/Zen Browser/zen.exe'
